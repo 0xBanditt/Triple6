@@ -1,6 +1,6 @@
 # Examples
-python3 Triple.py 123.456.789.10
-python3 Triole6.py 123.456.789.10 -n
+python3 Triple6.py 123.456.789.10
+python3 Triple6.py 123.456.789.10 -n
 
 # Commands
 python3 Triple6.py --help or -h                         (Display this)
