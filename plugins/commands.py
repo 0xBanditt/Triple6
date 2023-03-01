@@ -26,15 +26,26 @@ def command(syA2, syA1):
       sys.exit(0)
 
    else:
-      print(f"{R}Review the IP or type {W}'python Triple3.py -c' for more info.{RE}")
+      print(f"{R}Review the IP or type {W}'python Triple3.py -h' for more info.{RE}")
 
 def listCommand():
-      print(f'       {BG}{R}# Commands{RE}{BRE}\n')
-      print(f'{B}$ {R}python Triple6.py --help or -h                   {BB}{R}(Display help){BRE}')
-      print(f'{B}$ {R}python Triple6.py 138.121.128.19 --nmap or -n    {BB}{R}(Nmap standard use [normal scan]){BRE}')
-      print(f'{B}$ {R}python Triple6.py 138.121.128.19                 {BB}{R}(Standard use, infos about IP.){BRE}')
-      print(f'{B}$ {R}python Triple6.py --commands or -c               {BB}{R}(Display commands available.){BRE}') 
-      print(f'{B}$ {R}python Triple6.py 123.456.789.10 --ping or -p       {BB}{R}(Ping a website or an IP){BRE}')
-      print(f'{B}$ {R}python Triple6.py 123.456.789.10 --nmap-vuln or -nV {BB}{R}(Uses custom nmap scripts to scan for vulnerabilities on a network)')
-      print(RE)
+      print(f'{BG}{R}# Commands{RE}{BRE}\n')
+      print(f"{R}optional arguments:{RE}")
+      print("""
+-h, --help       show this help message and exi
+-c, --commamds   shows command dialog
+""")
+      print(f"{R}options:{RE}")
+      print("""
+-n, --nmap       Nmap standard use
+-p, --ping       Pings the IP
+-nV, --nmap-vuln Uses custom nmap scripts to find vulnerabilities on the system's IP 
+        """)
+      print(f"""{R}Example:{RE}
 
+python3 Triple6.py --help or -h                         (Display this)
+python3 Triple6.py 123.456.789.10 --nmap or -n          (Nmap standard use)
+python3 Triple6.py 123.456.789.10                       (Standard use, info about IP)
+python3 Triple6.py 123.456.789.10 --ping or -p          (Ping a website or an IP)
+python3 Triple6.py 123.456.789.10 --nmap-vuln or -nV    (Uses custom nmap scripts to scan for vulnerabilities on a network)
+""")

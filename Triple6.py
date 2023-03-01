@@ -63,9 +63,8 @@ $$e$P"    $b     d$`    "$$c$F
     "$$c.   `$b$F    .d$P"     
       `4$$$c.$$$..e$$P"        
           `^^^^^^^`
-{RE} 
-                        Author   :   {BB}{R}0xbanditt{RE}{BRE}
-                        Discord  :   {B}https://discord.gg/BcYXebzhBu{RE}
+{RE}                    Author   :   {BB}{R}0xbanditt{RE}{BRE}
+                        GitHub   :   {B}https://github.com/0xBanditt/Triple6{RE}
 {RE}{BRE}
 """) 
 
@@ -89,18 +88,12 @@ if (len(sys.argv) > 1):
         if syA1 == "--help" or syA1 == "-h":
             os.system("clear")
             welcome()
-            help(syA1)
+            listCommand()
 
         # kool banner 
         elif syA1 == "-b" or syA1 == "--banner":
             os.system("clear")
             welcome()
-    
-        # shows cmds 
-        elif syA1 == "-c" or syA1 == "--commands":
-            os.system("clear")
-            welcome()
-            listCommand()
 
     else:
         os.system("clear")
