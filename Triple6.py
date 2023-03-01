@@ -63,8 +63,8 @@ $$e$P"    $b     d$`    "$$c$F
     "$$c.   `$b$F    .d$P"     
       `4$$$c.$$$..e$$P"        
           `^^^^^^^`
-{RE}                    Author   :   {BB}{R}0xbanditt{RE}{BRE}
-                        GitHub   :   {B}https://github.com/0xBanditt/Triple6{RE}
+{RE}                        Author   :  0xbanditt
+                        GitHub   :  https://github.com/0xBanditt/Triple6
 {RE}{BRE}
 """) 
 

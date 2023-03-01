@@ -36,7 +36,7 @@ $ python Triple6.py
 * simple :white_check_mark:
 
 ``` 
-______
+            ______
        .d$$$******$$$$c.
     .d$P"            "$$c      |''||''|                     '||`         ,,,,
    $$$$$.           .$$$*$.       ||            ''           ||         ||   '
@@ -51,14 +51,15 @@ $$e$P"    $b     d$`    "$$c$F
  "$c.      4$.  $$       .$$              Type --help or -h for help
   ^$$.      $$ d$"      d$P         Type --commands or -c to show commands
     "$$c.   `$b$F    .d$P"
-      `4$$$c.$$$..e$$P"                                                                                             `^^^^^^^`
-                    Author   :   0xbanditt
-                        GitHub   :   https://github.com/0xBanditt/Triple6
+      `4$$$c.$$$..e$$P"
+          `^^^^^^^`
+                        Author   :  0xbanditt
+                        GitHub   :  https://github.com/0xBanditt/Triple6
                                                                                                           
 # Commands
 
-optional arguments:                                                                                       
--h, --help       show this help message and exi                                                           -c, --commamds   shows command dialog
+optional arguments:                                                         
+-h, --help       shows this help message and exit
 
 options:
 
